@@ -433,7 +433,7 @@ li {
     align-items: flex-end;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    grid-template-columns: repeat(auto-fill, minmax(1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
 }
 
 .staff__body {
@@ -792,24 +792,29 @@ feedback__grid::after {
         padding-left: 8vw;
         padding-right: 2vw;
     }
+
     .container {
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
     .video {
         width: 44vw;
         height: 26vw;
         margin-top: 4vw;
     }
+
     .button {
         font-family: 'Open Sans';
         display: flex;
         justify-content: center;
         margin-top: 4vw;
     }
+
     .feature {
         padding-bottom: 0;
     }
+
     .feature__head {
         text-align: start;
         display: flex;
@@ -817,21 +822,25 @@ feedback__grid::after {
         justify-content: flex-start;
         flex-direction: column;
     }
+
     .feature__heading {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
     }
+
     .line {
         width: 66vw;
         margin-bottom: 6vw;
- }
+    }
+
     .feature__link {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 98%
     }
+
     .feature__imges {
         display: flex;
         flex-wrap: wrap;
@@ -839,39 +848,48 @@ feedback__grid::after {
         justify-content: space-around;
         padding-right: 12vw;
     }
+
     .staff {
         display: flex;
         flex-wrap: wrap;
         padding: 1vw;
     }
+
     .subscribe__header-head {
         font-size: 30px;
         line-height: 32px;
     }
+
     .subscribe__form {
         max-width: 600px;
     }
+
     .subscribe__header {
         padding-top: 64px;
     }
+
     .feedback__grid {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-    .feedback__name, .feedback__mail {
+
+    .feedback__name,
+    .feedback__mail {
         display: flex;
         width: 80vw;
         flex-wrap: wrap;
         flex-direction: column;
         margin: 20px;
     }
+
     .feedback__message {
         width: 80vw;
         height: 252px;
         justify-content: center;
         margin: 2vw;
     }
+
     .feedback__header {
         text-align: start;
         display: flex;
@@ -881,19 +899,22 @@ feedback__grid::after {
         margin-left: 8vw;
         max-width: 74%;
     }
+
     .feedback__button {
         width: 86%;
         margin: 2vw;
     }
+
     .contacts {
         min-width: 768px;
         min-height: 394px;
-        margin: 2vw;   
-    }   
+        margin: 2vw;
+    }
 
     .popup-menu__button {
         display: block;
     }
+
     .header__menu {
         border: 0;
         clip: rect(0 0 0 0);
@@ -1278,7 +1299,7 @@ feedback__grid::after {
     .staff {
         display: flex;
         flex-wrap: wrap;
-        grid-template-columns: repeat(auto-fill, minmax(1fr));
+        grid-template-columns: repeat(auto-fit,minmax(1fr));
     }
 
     .subscribe__header {
